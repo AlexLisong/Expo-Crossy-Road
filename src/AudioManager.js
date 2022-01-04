@@ -1,6 +1,6 @@
 import { Audio } from 'expo-av';
 // import Assets from './Assets';
-import AssetUtils from 'expo-asset-utils';
+// import AssetUtils from 'expo-asset';
 import AudioFiles from './Audio';
 import { Platform } from 'react-native';
 
@@ -120,10 +120,11 @@ class AudioManager {
     // console.log('sounds', this.sounds);
   };
 
-  downloadAsync = async () =>
-    AssetUtils.cacheAssetsAsync({
-      files: [...AssetUtils.arrayFromObject(this.assets)],
-    });
+  //Alex: Need to fix this later
+  downloadAsync = async () => {}
+    // AssetUtils.cacheAssetsAsync({
+    //   files: [...AssetUtils.arrayFromObject(this.assets)],
+    // });
 
   setupAsync = async () => {
     if (MUTED) {
