@@ -1,3 +1,12 @@
+### how to start run it
+#### sudo npm i -g expo-cli
+
+npm i --force
+
+npm run start
+
+
+
 <!-- Banner Image -->
 
 [![Expo](/.style/header.png)](https://crossyroad.netlify.com/)
